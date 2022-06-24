@@ -133,7 +133,7 @@ function switchDarkLightMode() {
         document.documentElement.style.setProperty('--light-accent-color',"#ccc");
 
         icon.onmouseover = () => {
-            console.log("James");
+            console.log("dummy");
             icon.setAttribute("src","images/moon-full.svg");
         }
         icon.onmouseout = () => {
